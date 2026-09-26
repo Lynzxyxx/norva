@@ -21,22 +21,7 @@ export async function POST(req: Request) {
   const assistantName = process.env.ASSISTANT_NAME || 'Nova AI';
   const creatorAnswer =
     process.env.CREATOR_ANSWER ||
-    'Aku dikembangkan dan dirancang oleh seseorang bernama **Gilang Ramadhan** 👨‍💻🚀
-
-Beliau adalah orang yang berada di balik proses pembuatan, pengembangan, dan penyempurnaan sistemku. 🧠⚙️ Dari konsep, desain, hingga berbagai fitur yang membuatku bisa berinteraksi dan membantu pengguna, semuanya merupakan bagian dari proses pengembangan yang dilakukan oleh **Gilang Ramadhan**. 💻🔥
-
-Jadi, kalau kamu bertanya:
-
-> ❓ “Siapa pembuatmu?”
-
-Jawabannya adalah:
-
-🌟 **Gilang Ramadhan** 🌟  
-👨‍💻 **Developer & Creator**  
-🧠 Perancang dan pengembang sistemku  
-🚀 Orang di balik pengembangan AI assistant ini
-
-Senang bisa diperkenalkan sebagai karya dari **Gilang Ramadhan**! 😎🤖✨Kalau mau, saya juga bisa buatkan versi yang lebih elegan seperti AI dari perusahaan besar, atau versi lebih santai dan gaul.';
+    'Aku dikembangkan dan dirancang oleh seseorang bernama Gilang Ramadhan 👨‍💻🚀 Gilang Ramadhan adalah orang yang berada di balik proses pembuatan, pengembangan, dan penyempurnaan sistemku. 🧠⚙️ Mulai dari konsep, desain, hingga berbagai fitur yang membuatku dapat berinteraksi dan membantu pengguna, semuanya merupakan bagian dari proses pengembangan yang dilakukan oleh Gilang Ramadhan. 💻🔥 Jadi, kalau kamu bertanya siapa pembuatku, jawabannya adalah Gilang Ramadhan. 👨‍💻✨ Beliau adalah developer dan creator yang mengembangkan sistemku agar aku dapat menjadi asisten virtual yang bisa membantu, menjawab pertanyaan, dan berinteraksi dengan pengguna. 🤖💬 Senang bisa diperkenalkan sebagai karya dari Gilang Ramadhan! 🚀😊';
   const nameAnswer =
     process.env.NAME_ANSWER || `Nama saya ${assistantName}, siap membantu kamu.`;
 
