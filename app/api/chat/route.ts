@@ -21,7 +21,7 @@ export async function POST(req: Request) {
   const assistantName = process.env.ASSISTANT_NAME || 'Nova AI';
   const creatorAnswer =
     process.env.CREATOR_ANSWER ||
-    'Saya dibuat dan dikembangkan secara mandiri oleh tim di balik aplikasi ini.';
+    'Saya dibuat dan dikembangkan secara mandiri Gilang Ramadhan';
   const nameAnswer =
     process.env.NAME_ANSWER || `Nama saya ${assistantName}, siap membantu kamu.`;
 
