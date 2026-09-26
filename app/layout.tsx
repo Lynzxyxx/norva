@@ -2,8 +2,8 @@ import './globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Nova AI Chat',
-  description: 'Chat AI seperti ChatGPT, dibangun dengan Next.js',
+  title: 'Nova AI',
+  description: 'Nova Ai Siap Melayani Anda Dengan Hormat',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
